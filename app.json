@@ -3,6 +3,11 @@
   "scripts": {
   },
   "env": {
+    "ENVIRONMENT_NAME": {
+      "description": "Environment name for testing purposes.",
+      "required": true
+
+    }
   },
   "formation": {
   },
