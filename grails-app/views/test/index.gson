@@ -4,10 +4,10 @@ import grails.plugins.*
 import org.grails.core.artefact.*
 
 model {
-	GrailsApplication grailsApplication	
+	GrailsApplication grailsApplication
 	GrailsPluginManager pluginManager
 }
 
 json {
-	message "Hello this is a test 2!"
+	message "Hello this is the " + System.getenv('ENVIRONMENT_NAME') + " environment"
 }

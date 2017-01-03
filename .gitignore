@@ -11,3 +11,4 @@ build/
 .classpath
 prodDb.mv.db
 target/
+.env
